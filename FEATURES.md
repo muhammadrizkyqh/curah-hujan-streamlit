@@ -245,7 +245,7 @@ Color: #45B7D1
 
 **Q: "Cluster mana yang curah hujannya paling tinggi?"**
 ```
-A: 🌧️ Berdasarkan data, **Cluster 3 (Blitar)** memiliki curah hujan 
+A: 🌧️ Berdasarkan data, **Cluster 3** memiliki curah hujan 
 tertinggi dengan rata-rata 6.16 mm/hari. Cluster ini mencakup 12 wilayah
 termasuk Kab. Malang, Kab. Blitar, Kota Batu yang merupakan dataran tinggi
 dengan variasi curah hujan paling besar (std 13.74 mm/hari).
@@ -470,11 +470,11 @@ def classify_intensity(value):
 - **Width**: Proportional to density
 
 **Per Cluster:**
-- Cluster 1 (Red)
-- Cluster 2 (Teal)  
-- Cluster 3 (Blue)
+- Cluster 1
+- Cluster 2
+- Cluster 3
 
-**Interpretation:**
+**Interpretation:
 - Wide area = Many data points at that value
 - Narrow area = Few data points
 - Multiple peaks = Multimodal distribution

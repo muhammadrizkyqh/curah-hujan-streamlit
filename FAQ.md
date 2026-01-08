@@ -899,9 +899,9 @@ Interpretasi:
 4. **Clear separation** (lihat 3D scatter)
 
 **Interpretasi 3 Clusters:**
-- **Cluster 1 (Kediri)**: Curah hujan sangat tinggi
-- **Cluster 2 (Magetan)**: Curah hujan tinggi-sedang
-- **Cluster 3 (Blitar)**: Curah hujan sedang
+- **Cluster 1**: Curah hujan sangat tinggi
+- **Cluster 2**: Curah hujan tinggi-sedang
+- **Cluster 3**: Curah hujan sedang
 
 **Elbow Method:**
 ```

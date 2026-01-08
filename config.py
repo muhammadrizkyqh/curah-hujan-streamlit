@@ -7,15 +7,15 @@ GEMINI_API_KEY_PLACEHOLDER = "YOUR_GEMINI_API_KEY_HERE"
 
 # Color Schemes
 CLUSTER_COLORS = {
-    1: "#FF6B6B",  # Red - Cluster 1 (Kediri)
-    2: "#4ECDC4",  # Teal - Cluster 2 (Magetan)
-    3: "#45B7D1",  # Blue - Cluster 3 (Blitar)
+    1: "#FF6B6B",  # Red - Cluster 1
+    2: "#4ECDC4",  # Teal - Cluster 2
+    3: "#45B7D1",  # Blue - Cluster 3
 }
 
 CLUSTER_NAMES = {
-    1: "Cluster 1 (Kediri)",
-    2: "Cluster 2 (Magetan)",
-    3: "Cluster 3 (Blitar)",
+    1: "Cluster 1",
+    2: "Cluster 2",
+    3: "Cluster 3",
 }
 
 # Rainfall Intensity Classification (mm/hari)

@@ -194,11 +194,6 @@ with st.sidebar:
     
     st.divider()
     
-    # Theme toggle
-    theme = st.radio("🎨 Theme", ["Dark", "Light"])
-    
-    st.divider()
-    
     # API Key Input untuk Gemini
     st.subheader("🔑 Gemini API")
     
@@ -387,7 +382,7 @@ elif page == "🗺️ Interactive Map":
     m = folium.Map(
         location=JATIM_CENTER,
         zoom_start=JATIM_ZOOM,
-        tiles='CartoDB positron'
+        tiles='OpenStreetMap'
     )
     
     # Add markers
@@ -578,17 +573,17 @@ Jumlah Cluster: 3
 
 {medoid_info}
 
-CLUSTER 1 (Kediri) - {len(cluster_wilayah[1])} wilayah:
+CLUSTER 1 - {len(cluster_wilayah[1])} wilayah:
 Statistik: Mean={cluster_stats.loc[1, 'mean']:.2f}, Median={cluster_stats.loc[1, 'median']:.2f}, Std={cluster_stats.loc[1, 'std']:.2f}, Range=[{cluster_stats.loc[1, 'min']:.2f}-{cluster_stats.loc[1, 'max']:.2f}]
 Wilayah: {', '.join(cluster_wilayah[1][:10])}{'...' if len(cluster_wilayah[1]) > 10 else ''}
 Karakteristik: Curah hujan SEDANG, variasi cukup stabil
 
-CLUSTER 2 (Magetan) - {len(cluster_wilayah[2])} wilayah:
+CLUSTER 2 - {len(cluster_wilayah[2])} wilayah:
 Statistik: Mean={cluster_stats.loc[2, 'mean']:.2f}, Median={cluster_stats.loc[2, 'median']:.2f}, Std={cluster_stats.loc[2, 'std']:.2f}, Range=[{cluster_stats.loc[2, 'min']:.2f}-{cluster_stats.loc[2, 'max']:.2f}]
 Wilayah: {', '.join(cluster_wilayah[2][:10])}{'...' if len(cluster_wilayah[2]) > 10 else ''}
 Karakteristik: Curah hujan SEDANG-TINGGI, lebih bervariasi
 
-CLUSTER 3 (Blitar) - {len(cluster_wilayah[3])} wilayah:
+CLUSTER 3 - {len(cluster_wilayah[3])} wilayah:
 Statistik: Mean={cluster_stats.loc[3, 'mean']:.2f}, Median={cluster_stats.loc[3, 'median']:.2f}, Std={cluster_stats.loc[3, 'std']:.2f}, Range=[{cluster_stats.loc[3, 'min']:.2f}-{cluster_stats.loc[3, 'max']:.2f}]
 Wilayah: {', '.join(cluster_wilayah[3][:10])}{'...' if len(cluster_wilayah[3]) > 10 else ''}
 Karakteristik: Curah hujan TINGGI, variasi paling besar

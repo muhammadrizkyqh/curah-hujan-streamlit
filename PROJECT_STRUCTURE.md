@@ -132,7 +132,7 @@ GEMINI_API_KEY_PLACEHOLDER = "..."
 
 # Color Schemes
 CLUSTER_COLORS = {1: "#FF6B6B", ...}
-CLUSTER_NAMES = {1: "Cluster 1 (Kediri)", ...}
+CLUSTER_NAMES = {1: "Cluster 1", ...}
 
 # Rainfall Classification
 RAINFALL_INTENSITY = {...}

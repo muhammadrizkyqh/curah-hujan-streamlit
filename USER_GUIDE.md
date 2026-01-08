@@ -140,9 +140,9 @@ Step 3: Review time series
 - Click for details popup
 
 **Legend (Bottom-right):**
-- 🔴 Cluster 1 (Kediri) - 18 regions
-- 🔵 Cluster 2 (Magetan) - 8 regions  
-- 🟢 Cluster 3 (Blitar) - 12 regions
+- 🔴 Cluster 1 - 18 regions
+- 🔵 Cluster 2 - 8 regions  
+- 🟢 Cluster 3 - 12 regions
 
 **Statistics Panel:**
 - Most affected region
@@ -226,7 +226,7 @@ Step 3: Review time series
 ```
 User: "Apa karakteristik Cluster 1?"
 
-AI: "Cluster 1 (Pusat: Kediri) memiliki karakteristik:
+AI: "Cluster 1 memiliki karakteristik:
      • Rata-rata curah hujan: 6.21 mm/hari (TERTINGGI)
      • Jumlah wilayah: 18 (47.4%)
      • Curah hujan maksimum: 318.68 mm/hari
@@ -239,7 +239,7 @@ AI: "Cluster 1 (Pusat: Kediri) memiliki karakteristik:
 
 User: "Bagaimana dibanding Cluster 2?"
 
-AI: "Cluster 2 (Pusat: Magetan) berbeda signifikan:
+AI: "Cluster 2 berbeda signifikan:
      • Rata-rata: 5.72 mm/hari (lebih rendah 8%)
      • Curah hujan lebih stabil (std: 9.78)
      • Wilayah: Magetan, Madiun, Ngawi, Pacitan

@@ -243,17 +243,17 @@ Maksimum   : 318.68 mm/hari
 - **Xie-Beni Index**: 0.2721 (excellent)
 - **Fuzziness (m)**: 2.5 (optimal)
 
-#### Cluster 1 (Kediri) - 18 Wilayah
+#### Cluster 1 - 18 Wilayah
 - Karakteristik: Curah hujan SEDANG
 - Mean: 5.72 mm/hari
 - Wilayah: Pesisir utara & selatan
 
-#### Cluster 2 (Magetan) - 8 Wilayah
+#### Cluster 2 - 8 Wilayah
 - Karakteristik: Curah hujan SEDANG-TINGGI
 - Mean: 6.18 mm/hari
 - Wilayah: Barat Jawa Timur
 
-#### Cluster 3 (Blitar) - 12 Wilayah
+#### Cluster 3 - 12 Wilayah
 - Karakteristik: Curah hujan TINGGI
 - Mean: 6.16 mm/hari
 - Wilayah: Tengah & dataran tinggi
@@ -347,7 +347,7 @@ docker run -p 8501:8501 rainfall-dashboard
 ### Chat dengan AI
 ```
 User: "Cluster mana yang paling rawan banjir?"
-AI: "🌧️ Cluster 3 (Blitar) paling rawan banjir karena:
+AI: "🌧️ Cluster 3 paling rawan banjir karena:
      - Mean rainfall tertinggi: 6.16 mm/hari
      - Variasi terbesar: Std 13.74 mm/hari
      - Extreme events: >100mm tercatat 45+ kali
