@@ -296,7 +296,7 @@ if page == "🏠 Dashboard":
         fig.update_layout(
             showlegend=False,
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -317,7 +317,7 @@ if page == "🏠 Dashboard":
         )
         fig.update_layout(
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -342,7 +342,7 @@ if page == "🏠 Dashboard":
     fig.update_layout(
         height=400,
         hovermode='x unified',
-        template='plotly_dark' if theme == "Dark" else 'plotly_white'
+        template='plotly_dark'
     )
     st.plotly_chart(fig, use_container_width=True)
     
@@ -698,7 +698,7 @@ elif page == "📈 Time Series":
         fig.update_layout(
             height=500,
             hovermode='x unified',
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
         
@@ -725,7 +725,7 @@ elif page == "📈 Time Series":
             yaxis_title="Curah Hujan (mm/hari)",
             barmode='group',
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -756,7 +756,7 @@ elif page == "🎯 Cluster Analysis":
             barmode='stack',
             height=400,
             xaxis_tickangle=-45,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -774,7 +774,7 @@ elif page == "🎯 Cluster Analysis":
         fig.update_layout(
             showlegend=False,
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -803,7 +803,7 @@ elif page == "🎯 Cluster Analysis":
     )
     fig.update_layout(
         height=600,
-        template='plotly_dark' if theme == "Dark" else 'plotly_white'
+        template='plotly_dark'
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -830,7 +830,7 @@ elif page == "🌧️ Rainfall Analytics":
     )
     fig.update_layout(
         height=400,
-        template='plotly_dark' if theme == "Dark" else 'plotly_white'
+        template='plotly_dark'
     )
     st.plotly_chart(fig, use_container_width=True)
     
@@ -871,7 +871,7 @@ elif page == "🌧️ Rainfall Analytics":
         fig.update_layout(
             height=400,
             showlegend=False,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -899,7 +899,7 @@ elif page == "🌧️ Rainfall Analytics":
     )
     fig.update_layout(
         height=400,
-        template='plotly_dark' if theme == "Dark" else 'plotly_white'
+        template='plotly_dark'
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -922,7 +922,7 @@ elif page == "📊 Statistical View":
     fig.update_layout(
         showlegend=False,
         height=400,
-        template='plotly_dark' if theme == "Dark" else 'plotly_white'
+        template='plotly_dark'
     )
     st.plotly_chart(fig, use_container_width=True)
     
@@ -945,7 +945,7 @@ elif page == "📊 Statistical View":
         )
         fig.update_layout(
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -964,7 +964,7 @@ elif page == "📊 Statistical View":
         fig.update_layout(
             height=400,
             showlegend=False,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -993,7 +993,7 @@ elif page == "📊 Statistical View":
         )
         fig.update_layout(
             height=500,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     else:
@@ -1135,7 +1135,7 @@ elif page == "📉 Performance Metrics":
         fig.update_layout(
             showlegend=False,
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
@@ -1152,7 +1152,7 @@ elif page == "📉 Performance Metrics":
         )
         fig.update_layout(
             height=400,
-            template='plotly_dark' if theme == "Dark" else 'plotly_white'
+            template='plotly_dark'
         )
         st.plotly_chart(fig, use_container_width=True)
     
