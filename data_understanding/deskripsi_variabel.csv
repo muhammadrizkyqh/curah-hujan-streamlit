@@ -1,0 +1,5 @@
+Nama Variabel,Deskripsi
+tanggal,Tanggal observasi curah hujan harian.
+PRECTOTCORR,Curah hujan harian (mm/hari) dari NASA POWER.
+Wilayah,Nama kabupaten/kota representasi wilayah.
+nama_bulan,Nama bulan hasil ekstraksi dari tanggal.
